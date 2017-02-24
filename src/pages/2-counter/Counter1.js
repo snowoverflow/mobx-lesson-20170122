@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
 
 const counter = observable(0);
 
+//此处是全局函数么？？？？？？？？？
 function inc() {
   counter.set(counter.get() + 1);
 }
